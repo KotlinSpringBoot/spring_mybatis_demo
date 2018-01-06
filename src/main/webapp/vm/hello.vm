@@ -1,5 +1,3 @@
-<html>
-<body>
-<h2>Hello, Spring MyBatis!</h2>
-</body>
-</html>
+#set($layout = "/layout/layout.vm")
+
+Spring Boot 2.0 极简教程！
