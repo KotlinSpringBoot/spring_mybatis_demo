@@ -27,12 +27,6 @@
         </property>
     </bean>
 
-    <!-- 定义跳转的文件的前后缀 ，视图模式配置 -->
-    <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
-        <!--<property name="prefix" value="/WEB-INF/jsp/"/>-->
-        <!--<property name="suffix" value=".jsp"/>-->
-    <!--</bean>-->
-
     <bean id="velocityConfigurer"
           class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
         <property name="resourceLoaderPath">
